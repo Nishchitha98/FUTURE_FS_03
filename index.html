@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Fitness | Premium Gym & Training</title>
+    <meta name="description"
+        content="Transform your body at Super Fitness. Expert training, modern equipment, and a motivating community in Mysuru.">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">SUPER<span>FITNESS</span></a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle (Simplified for now) -->
+            <button class="mobile-menu-btn" style="display: none;">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>REDEFINE YOUR<br><span class="text-accent">LIMITS</span></h1>
+                    <p>Where strength is built and limits are broken.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">Book Free Trial</a>
+                        <a href="#services" class="btn btn-secondary">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Premium <span class="text-accent">Services</span></h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+                        <h3>Strength Training</h3>
+                        <p>Build muscle and increase power with our high-end weight lifting facilities and expert
+                            guidance.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Cardio Excellence</h3>
+                        <p>Boost your endurance with the latest treadmills, ellipticals, and HIIT programs.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-user-ninja"></i></div>
+                        <h3>Personal Coaching</h3>
+                        <p>One-on-one sessions tailored to your specific goals, nutrition, and lifestyle.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-users"></i></div>
+                        <h3>Group Classes</h3>
+                        <p>Join our high-energy Zumba, Yoga, and Cross-fit sessions with a motivating community.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-spa"></i></div>
+                        <h3>Yoga & Wellness</h3>
+                        <p>Find your balance and improve flexibility with our dedicated yoga and meditation sessions.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-utensils"></i></div>
+                        <h3>Nutrition Plans</h3>
+                        <p>Fuel your transformation with customized meal plans and expert dietary advice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING SECTION -->
+        <section class="pricing section-padding" id="pricing">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Membership <span class="text-accent">Plans</span></h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Starter</h3>
+                        <div class="price">₹1,499<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Access to gym floor</li>
+                            <li><i class="fas fa-check"></i> Basic locker access</li>
+                            <li><i class="fas fa-check"></i> 1 Fitness assessment</li>
+                            <li style="opacity: 0.5;"><i class="fas fa-times"></i> Group classes</li>
+                            <li style="opacity: 0.5;"><i class="fas fa-times"></i> Personal trainer</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary">Select Plan</a>
+                    </div>
+
+                    <div class="pricing-card popular">
+                        <h3>Pro Elite</h3>
+                        <div class="price">₹2,999<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Unlimited gym access</li>
+                            <li><i class="fas fa-check"></i> All group classes</li>
+                            <li><i class="fas fa-check"></i> Premium locker & sauna</li>
+                            <li><i class="fas fa-check"></i> 2 PT sessions/month</li>
+                            <li><i class="fas fa-check"></i> Nutrition guidance</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Join Now</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3>Platinum</h3>
+                        <div class="price">₹5,499<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Everything in Pro</li>
+                            <li><i class="fas fa-check"></i> Daily PT sessions</li>
+                            <li><i class="fas fa-check"></i> Diet supplement plan</li>
+                            <li><i class="fas fa-check"></i> Guest passes (2/mo)</li>
+                            <li><i class="fas fa-check"></i> Massage therapy</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary">Go Platinum</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials section-padding" id="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Our <span class="text-accent">Members Say</span></h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <p style="font-style: italic; margin-bottom: 1rem;">"Amazing trainers and great environment! The community here is so supportive."</p>
+                        <h4 class="text-accent">- Rahul</h4>
+                    </div>
+                    <div class="service-card">
+                        <p style="font-style: italic; margin-bottom: 1rem;">"Lost 10kg in 3 months. Highly recommend Super Fitness to anyone serious about their goals!"</p>
+                        <h4 class="text-accent">- Sneha</h4>
+                    </div>
+                    <div class="service-card">
+                        <p style="font-style: italic; margin-bottom: 1rem;">"The best gym in Mysuru. The equipment is top-notch and always clean."</p>
+                        <h4 class="text-accent">- Arjun</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="about-content">
+                        <div class="section-title" style="text-align: left;">
+                            <h2>Why <span class="text-accent">Choose Us</span>?</h2>
+                            <div class="underline" style="margin: 0;"></div>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">Super Fitness is more than just a gym; it's a community
+                            dedicated to physical and mental transformation. Founded in 2020, we've helped over 1,000
+                            members in Mysuru reach their peak performance.</p>
+                        <p>Our facility features 10,000 sq. ft. of space, certified international trainers, and an
+                            atmosphere that screams motivation. Whether you want to lose weight, gain muscle, or just
+                            stay active, we are your second home.</p>
+                    </div>
+                    <div class="about-stats" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="service-card" style="padding: 2rem;">
+                            <h3 class="text-accent">10+</h3>
+                            <p>Expert Trainers</p>
+                        </div>
+                        <div class="service-card" style="padding: 2rem;">
+                            <h3 class="text-accent">50+</h3>
+                            <p>Modern Equipments</p>
+                        </div>
+                        <div class="service-card" style="padding: 2rem;">
+                            <h3 class="text-accent">1k+</h3>
+                            <p>Happy Members</p>
+                        </div>
+                        <div class="service-card" style="padding: 2rem;">
+                            <h3 class="text-accent">24/7</h3>
+                            <p>Access Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In <span class="text-accent">Touch</span></h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Super+Fitness+Gym+Mysuru"
+                            target="_blank" class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <p>123 Fitness Street, Mysuru, Karnataka</p>
+                            </div>
+                        </a>
+                        <a href="tel:+919876543210" class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </a>
+                        <a href="mailto:superfitness@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>superfitness@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <div class="map-container" style="margin-top: 2rem;">
+                            <iframe 
+                                src="https://maps.google.com/maps?q=mysuru&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="250" style="border:0; border-radius:10px;">
+                            </iframe>
+                        </div>
+
+                    </div>
+
+                    <form class="contact-form" action="https://formspree.io/f/xbdwyjlb" method="POST">
+
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">SUPER<span>FITNESS</span></a>
+                    <p>Built for strength. Driven by discipline. Designed for results.</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://wa.me/919876543210" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 SUPER FITNESS | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
