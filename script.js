@@ -125,12 +125,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (contactForm) {
         contactForm.addEventListener('submit', () => {
-            // Do NOT prevent default → Formspree needs it
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            if (submitBtn) {
+                submitBtn.innerHTML = '<span class="spinner"></span> Sending...';
+                submitBtn.disabled = true;
+            }
 
+            // Do NOT prevent default → Formspree needs it
             setTimeout(() => {
                 contactForm.innerHTML =
-                    "<p style='text-align:center; color:green; font-weight:600;'>✅ Message sent successfully!</p>";
-            }, 500);
+                    "<div style='text-align:center; padding: 2rem; background: var(--surface-color); border-radius: 12px; border: 1px solid var(--glass-border);'><p style='color:var(--accent-color); font-size: 2rem; margin-bottom: 1rem;'>✅</p><p style='color:white; font-weight:600; font-size: 1.2rem;'>Message sent successfully!</p><p style='color:var(--text-secondary); margin-top: 0.5rem;'>We will get back to you shortly.</p></div>";
+            }, 1000);
         });
     }
 });
