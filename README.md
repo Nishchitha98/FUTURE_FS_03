@@ -3,12 +3,12 @@
 A modern, responsive gym website landing page built using HTML, CSS, and JavaScript.
 Designed to showcase services, pricing plans, and allow users to contact the gym easily.
 
---
+
 ## 🚀 Live Demo
 
 👉 https://gym-website-future-intern.netlify.app
 
---
+
 ## 📌 Features
 🌙 Dark / Light theme toggle
 📱 Fully responsive design (mobile + desktop)
@@ -20,7 +20,7 @@ Designed to showcase services, pricing plans, and allow users to contact the gym
 📩 Contact form (powered by Formspree)
 📌 Sticky navbar with scroll effect
 
---
+
 ## 🛠️ Tech Stack
 HTML5 – Structure
 CSS3 – Styling & animations
@@ -29,7 +29,6 @@ Font Awesome – Icons
 Google Fonts – Typography
 Formspree – Form backend
 
---
 ## 📁 Project Structure
 /project-folder
 │
@@ -38,7 +37,7 @@ Formspree – Form backend
 ├── script.js
 └── README.md
 
---
+
 ## ⚙️ Setup & Run Locally
 Clone the repository
 git clone https://github.com/Nishchitha98/FUTURE_FS_03.git
@@ -46,20 +45,20 @@ Open the project folder
 Run the project
 Simply open index.html in your browser
 
---
+
 
 ## 🌐 Deployment
 
 This project is deployed using Netlify.
 https://gym-website-future-intern.netlify.app
 
---
+
 
 ## 📬 Contact Form
 
 The contact form is integrated with Formspree, allowing users to send messages without a backend.
 
---
+
 
 ## 💡 Future Improvements
 Add backend (Node.js / Firebase)
@@ -68,7 +67,7 @@ Add booking system for gym sessions
 Add payment integration
 Improve SEO & performance
 
---
+
 
 
 ## 👩‍💻 Author
@@ -83,4 +82,3 @@ Aspiring Full Stack Developer
 
 This project is open-source and free to use.
 
---
