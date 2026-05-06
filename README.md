@@ -7,7 +7,7 @@ Designed to showcase services, pricing plans, and allow users to contact the gym
 
 ## 🚀 Live Demo
 
-👉 https://gym-website-future-intern.netlify.app
+👉 https://nishchitha98.github.io/FUTURE_FS_03/
 
 
 ## 📌 Features
