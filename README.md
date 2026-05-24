@@ -7,7 +7,7 @@ Designed to showcase services, pricing plans, and allow users to contact the gym
 
 ## 🚀 Live Demo
 
-👉 https://nishchitha98.github.io/FUTURE_FS_03/
+👉 https://nishchitha98.github.io/Business-Website-For-Gym/
 
 
 ## 📌 Features
